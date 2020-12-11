@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[Flights]
+(
+	[Id] NVARCHAR(10) NOT NULL PRIMARY KEY,
+	[RoutId] INT NOT NULL REFERENCES [Routes](Id) ON DELETE CASCADE   
+)

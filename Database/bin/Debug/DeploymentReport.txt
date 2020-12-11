@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Admin] (Table)
+       [dbo].[Aircrafts] (Table)
+       [dbo].[Flights] (Table)
+       [dbo].[Passengers] (Table)
+       [dbo].[Payments] (Table)
+       [dbo].[Reservations] (Table)
+       [dbo].[Routes] (Table)
+       [dbo].[Schedule] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Flights] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Payments] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Reservations] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Reservations] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Schedule] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Schedule] (Foreign Key)
+
+** Supporting actions

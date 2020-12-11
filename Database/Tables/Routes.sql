@@ -1,0 +1,16 @@
+﻿CREATE TABLE [dbo].[Routes]
+(
+	[Id] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[FromAirport] NVARCHAR(100) NOT NULL,
+	[FromCity] NVARCHAR(100) NOT NULL,
+	[FromCountry] NVARCHAR(100) NOT NULL,
+	[FromLat] REAL NULL,
+	[FromLong] REAL NULL,
+	[ToAirport] NVARCHAR(100) NOT NULL,
+	[ToCity] NVARCHAR(100) NOT NULL,
+	[ToCountry] NVARCHAR(100) NOT NULL,
+	[ToLat] REAL NULL,
+	[ToLong] REAL NULL,
+	[Distance] BIGINT NOT NULL
+
+)
